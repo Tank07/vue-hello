@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue First Step</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
 
     <div id="banana">
         <h1>{{message}}</h1>
+        <img v-bind:src="immagine" width="200px" height="200px" alt="">
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>

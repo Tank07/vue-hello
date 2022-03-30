@@ -7,7 +7,8 @@ var app = new Vue(
     {
         el: "#banana",
         data: {
-            message: "Hello Davide e/o Francesco"
+            message: "Hello Davide e/o Francesco",
+            immagine: "cabin.png"
         }
     }
 );
